@@ -33,6 +33,9 @@
 		<config-file target="AndroidManifest.xml" parent="/manifest">
 			<queries>
         			<package android:name="com.twitter.android"/>
+				<package android:name="com.outsystemsenterprise.accdev1.AccMeMobile2"/>
+				<package android:name="com.outsystemsenterprise.accdev1.AMOS"/>
+				<package android:name="com.outsystemsenterprise.accdev1.Archer"/>
 			</queries>
     		</config-file>
 		<source-file src="src/android/Launcher.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
