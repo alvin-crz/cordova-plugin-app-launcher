@@ -32,7 +32,7 @@
 		</config-file>
 		<config-file target="AndroidManifest.xml" parent="/manifest">
 			<queries>
-        			<package android:name="com.instagram.android"/>
+        			<package android:name="com.twitter.android"/>
 			</queries>
     		</config-file>
 		<config-file target="res/xml/config.xml" parent="/widget">
