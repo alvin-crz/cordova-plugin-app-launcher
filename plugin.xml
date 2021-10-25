@@ -35,9 +35,6 @@
         			<package android:name="com.twitter.android"/>
 			</queries>
     		</config-file>
-		<config-file target="res/xml/config.xml" parent="/widget">
-            		<xmlns:android="http://schemas.android.com/apk/res/android"/>
-        	</config-file>
 		<source-file src="src/android/Launcher.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
 		<source-file src="src/android/ParseTypes.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
 	</platform>
