@@ -30,8 +30,10 @@
 				<param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
 			</feature>
 		</config-file>
-		<config-file target="AndroidManifest.xml" parent="/manifest/queries/package">
-        		<package android:name="com.outsystemsenterprise.accdev1.testlanding"/>
+		<config-file target="AndroidManifest.xml" parent="/manifest">
+			<queries>
+        			<package android:name="com.outsystemsenterprise.accdev1.testlanding"/>
+			</queries>
     		</config-file>
 		<source-file src="src/android/Launcher.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
 		<source-file src="src/android/ParseTypes.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
